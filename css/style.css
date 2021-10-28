@@ -49,7 +49,7 @@ header{
     float: right;
 }
 
-main-text-2::after{
+.main-text-2::after{
     content: "";
     clear: both;
     display: table;
