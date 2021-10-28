@@ -35,12 +35,6 @@ header{
     margin-bottom: 1%;
 }
 
-.container::after{
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .menu{
     width: 20%;
     height: 86%;
@@ -53,6 +47,12 @@ header{
 
 .flori{
     float: right;
+}
+
+main-text-2::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .central-text{
